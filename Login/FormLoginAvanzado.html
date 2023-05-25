@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/MisEstilos.css">
+
+    <title>Formulario Login</title>
+    
+    <style>
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <form name="FormaLogin" action="" method="post">
+            <h1>Formulario Login</h1>
+            
+            <label>
+                Usuario <span class="required">*</span>
+            </label>
+            <input type="text" name="usuario" required>
+
+            <label>
+                Contraseña <span class="required">*</span>
+            </label>
+            <input type="password" name="clave" required>
+
+            <input type="submit" class="button button-block" value="Iniciar Sesión">
+        </form>
+    </div>    
+
+</body>
+</html>
